@@ -6,9 +6,9 @@ public class Arraymethod {
 		// equal
 		// char[] Array1 = { 'A', 'B', 'C', 'D', 'E',};
 		// char[] Array2 = { 'A', 'B', 'C', 'D', 'E', 'F' };
-		// ¦b¤U¤@¬q§A·|µo²{°ÝÃD¡G©ú©ú¤º®e¤@¼Ë«o¤ñ¤£¥X¨Ó
-		// System.out.println("array¬O§_¬Û¦P¡H"+(Array1==Array2));
-		// ¥t¥~¤@ºØ¤è¦¡¡G
+		// ï¿½bï¿½Uï¿½@ï¿½qï¿½Aï¿½|ï¿½oï¿½{ï¿½ï¿½ï¿½Dï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½@ï¿½Ë«oï¿½ñ¤£¥Xï¿½ï¿½
+		// System.out.println("arrayï¿½Oï¿½_ï¿½Û¦Pï¿½H"+(Array1==Array2));
+		// ï¿½tï¿½~ï¿½@ï¿½Ø¤è¦¡ï¿½G
 		// boolean flag = true;
 		// if (Array1.length != Array2.length) {
 		// flag = false;
@@ -21,55 +21,40 @@ public class Arraymethod {
 		// }
 		// }
 		// if (flag) {
-		// System.out.println("Array1©MArray3ªº¤º®e§¹¥þ¬Û¦P");
+		// System.out.println("Array1ï¿½MArray3ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½Û¦P");
 		// } else {
-		// System.out.println("Array1©MArray3ªº¤º®e¤£§¹¥þ¬Û¦P");
+		// System.out.println("Array1ï¿½MArray3ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¦P");
 		// }
 
-		// ¨Ï¥ÎArraysÃþ§O¤¤euqalsªº§@ªk
+		// ï¿½Ï¥ï¿½Arraysï¿½ï¿½ï¿½Oï¿½ï¿½euqalsï¿½ï¿½ï¿½@ï¿½k
 		// boolean flag = Arrays.equals(Array1, Array2);
 		// System.out.println(flag);
 		// if (flag) {
-		// System.out.println("Array1©MArray3ªº¤º®e§¹¥þ¬Û¦P");
+		// System.out.println("Array1ï¿½MArray3ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½Û¦P");
 		// } else {
-		// System.out.println("Array1©MArray3ªº¤º®e¤£§¹¥þ¬Û¦P");
+		// System.out.println("Array1ï¿½MArray3ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¦P");
 		// }
 		// System.out.println("-------------");
-		// °}¦C±Æ§Çsort
-		// ®ðªw±Æ§ÇªkBubble Sort
-		// int timSort[] = { 25, 13, 39, 19, 9, 47, 10, 57, 58, 283, 43, 349 };
-		// int temp;
-		// for (int i = 0; i < timSort.length - 1; i++) {
-		// for (int j = i + 1; j < timSort.length; j++) {
-		// if (timSort[i] > timSort[j]) {// §ï¦¨¡u<¡v´N¬O¥Ñ¤j±Æ¨ì¤p¤F
-		// temp = timSort[i];// ¥H¤U¤T¦æ²£¥Í¸ê®Æ¤¬´«ªºµ²ªG
-		// timSort[i] = timSort[j];
-		// timSort[j] = temp;
-		// }
-		// }
-		// }
-		// for (int ts : timSort) {
-		// System.out.print(ts + " ");
-		// }
-		// System.out.println();
+		// ï¿½}ï¿½Cï¿½Æ§ï¿½sort
+		
 
-		// ¥Îsort·|»´ÃP«Ü¦h¡A¹w³]¬O»¼¼W
+		// ï¿½ï¿½sortï¿½|ï¿½ï¿½ï¿½Pï¿½Ü¦hï¿½Aï¿½wï¿½]ï¿½Oï¿½ï¿½ï¿½W
 		// Arrays.sort(timSort);
 
-		// ¤@­Ó¤@­Ó¥s¥X¨Ó
+		// ï¿½@ï¿½Ó¤@ï¿½Ó¥sï¿½Xï¿½ï¿½
 		// for (int ts : timSort) {
 		// System.out.print(ts + " ");
 		// }
 
 		System.out.println("--------");
-		// ·j´M°}¦C¤¤ªº¤¸¯À
+		// ï¿½jï¿½Mï¿½}ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		char[] SearchArray = { 'A', 'C', 'X', 'W', 'E', 'B' };
-		// for (int j = 0; j < SearchArray.length; j++) {// ­«·sÅã¥Ü¥Ø«e°}¦Cªº¤º®e
+		// for (int j = 0; j < SearchArray.length; j++) {// ï¿½ï¿½ï¿½sï¿½ï¿½Ü¥Ø«eï¿½}ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½e
 		// System.out.print(SearchArray[j] + " ");
 		// }
 		// System.out.println();
-		// ¦pªG­n·j´M¡uC¡v¬O§_¦b°}¦C¤¤
-		// ¤£¥ÎArrays.binarySearch§@ªk
+		// ï¿½pï¿½Gï¿½nï¿½jï¿½Mï¿½uCï¿½vï¿½Oï¿½_ï¿½bï¿½}ï¿½Cï¿½ï¿½
+		// ï¿½ï¿½ï¿½ï¿½Arrays.binarySearchï¿½@ï¿½k
 		boolean Sflag = false;
 		int i;
 		for (i = 0; i < SearchArray.length; i++) {
@@ -80,14 +65,14 @@ public class Arraymethod {
 		}
 		System.out.println(Sflag);
 		if (Sflag) {
-			System.out.println("C¬O¦b°}¦C¤¤ªº²Ä" + (i + 1) + "­Ó¦ì¸m");
+			System.out.println("Cï¿½Oï¿½bï¿½}ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + (i + 1) + "ï¿½Ó¦ï¿½m");
 		} else {
-			System.out.println("C¦b°}¦C¤¤§ä¤£¨ì");
+			System.out.println("Cï¿½bï¿½}ï¿½Cï¿½ï¿½ï¿½ä¤£ï¿½ï¿½");
 		}
 
-		// ¨Ï¥ÎArraysÃþ§O¤¤ªºbinarySearch§@ªk
+		// ï¿½Ï¥ï¿½Arraysï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½binarySearchï¿½@ï¿½k
 		// int at = Arrays.binarySearch(SearchArray, 'C');
-		// System.out.println("C¬O¦b°}¦C¤¤ªº²Ä" + (at+1) + "­Ó¦ì¸m");
+		// System.out.println("Cï¿½Oï¿½bï¿½}ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + (at+1) + "ï¿½Ó¦ï¿½m");
 
 		System.out.println("----------");
 
