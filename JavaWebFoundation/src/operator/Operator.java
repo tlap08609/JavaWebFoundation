@@ -3,7 +3,7 @@ package operator;
 public class Operator {
 
 	public static void main(String[] args) {
-//		¨â­Ó³W«h
+//		ï¿½ï¿½Ó³Wï¿½hee
 //			
 		int n = 3+5*7+4;
 		System.out.println(n);
@@ -11,12 +11,12 @@ public class Operator {
 		
 /*		byte ii = 127;
 		short iii=32767;*/
-		//·¸¦ì°ÝÃD
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½D
 /*		iii++;
 		int iiii=2147483647;
 		long iiiii = 9223372036854775807l;
 		System.out.println();*/
-		//Âà´«°ÝÃD
+		//ï¿½à´«ï¿½ï¿½ï¿½D
 /*		int d = 600;
 		double dd = d;
 		System.out.println(iii);*/
