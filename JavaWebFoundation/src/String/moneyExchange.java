@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class moneyExchange {
+	//輸入金額數12302.23，轉換為"壹萬貳仟參佰零貳元貳角參分"
 	public static final String EMPTY = "";
 	public static final String ZERO = "零";
 	public static final String ONE = "壹";
@@ -156,7 +157,7 @@ public class moneyExchange {
 	}
 	public static void main(String[] args) {
 		//金額轉換 e.g.NT$1011 -> 壹千零壹拾壹元整輸出
-		System.out.println("輸入整數");
+		System.out.println("輸入金額數");
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		System.out.println("轉換後金額為");
