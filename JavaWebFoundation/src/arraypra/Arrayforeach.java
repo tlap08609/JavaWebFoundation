@@ -21,7 +21,7 @@ public class Arrayforeach {
 		}
 
 		System.out.println("--------");
-		// ��[�`
+		// 
 		System.out.println("��[�`");
 		for (int x = 0; x < tim[x].length; x++) {
 			sum = 0;
