@@ -90,7 +90,6 @@ public class moneyExchange {
 		StringBuffer c2c = new StringBuffer();
 		for (int i = 0 ;i < moneyStr.length(); i++) {
 			c2c.append(numberMap.get(moneyStr.substring(i, i+1)));
-			System.out.print(c2c.toString());
 		}
 		int indexOfDot = c2c.indexOf(DOT);
 		int moneyPatternCursor = 1;
@@ -156,7 +155,7 @@ public class moneyExchange {
 		return flag;
 	}
 	public static void main(String[] args) {
-		// TODO 金額轉換 e.g.NT$1011 -> 壹千零壹拾壹元整輸出
+		//金額轉換 e.g.NT$1011 -> 壹千零壹拾壹元整輸出
 		System.out.println("輸入整數");
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
