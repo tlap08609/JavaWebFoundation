@@ -3,8 +3,8 @@ package arraypra;
 public class Arrayforeach {
 
 	public static void main(String[] args) {
-		// array¦C¥[Á`
-		System.out.println("¦C¥[Á`");
+		// array
+		System.out.println("ï¿½Cï¿½[ï¿½`");
 		int tim[][] = { { 1, 7, 15 }, { 9, 3, 4 }, { 6, 8, 13 }, { 11, 5, 2 },
 				{ 10, 7, 9 } };
 		int sum = 0;
@@ -17,36 +17,36 @@ public class Arrayforeach {
 				sum += tim[x][y];
 
 			}
-			System.out.println("²Ä" + x + "¦Cªº¦X¬°¡G" + sum);
+			System.out.println("ï¿½ï¿½" + x + "ï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½G" + sum);
 		}
 
 		System.out.println("--------");
-		// ¦æ¥[Á`
-		System.out.println("¦æ¥[Á`");
+		// ï¿½ï¿½[ï¿½`
+		System.out.println("ï¿½ï¿½[ï¿½`");
 		for (int x = 0; x < tim[x].length; x++) {
 			sum = 0;
 			for (int y = 0; y < tim.length; y++) {
 				sum += tim[y][x];
 			}
-			System.out.println("²Ä" + x + "¦æªº¦X¬°¡G" + sum);
+			System.out.println("ï¿½ï¿½" + x + "ï¿½æªºï¿½Xï¿½ï¿½ï¿½G" + sum);
 		}
 		System.out.println("--------");
-		// sumÂk¹s
+		// sumï¿½kï¿½s
 		sum = 0;
-		System.out.println("©Ò¦³¤¸¯À¥[Á`");
-		// ©Ò¦³¥[Á`
+		System.out.println("ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½`");
+		// ï¿½Ò¦ï¿½ï¿½[ï¿½`
 		for (int x = 0; x < tim[x].length; x++) {
 			for (int y = 0; y < tim.length; y++) {
 				sum += tim[y][x];
 			}
 		}
-		// ¤]¥i¥H¥Îforeach§ä
+		// ï¿½]ï¿½iï¿½Hï¿½ï¿½foreachï¿½ï¿½
 		// for (int[] aa : tim) {
 		// for (int tt : aa) {
 		// sum += tt;
 		// }
 		// }
-		System.out.println("¦X¬°¡G" + sum);
+		System.out.println("ï¿½Xï¿½ï¿½ï¿½G" + sum);
 
 	}
 
