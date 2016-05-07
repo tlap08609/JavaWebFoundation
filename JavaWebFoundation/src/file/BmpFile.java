@@ -9,6 +9,8 @@ public class BmpFile {
 
 	public static void main(String[] args) {
 		//http://crazycat1130.pixnet.net/blog/post/1345538-%E9%BB%9E%E9%99%A3%E5%9C%96%EF%BC%88bitmap%EF%BC%89%E6%AA%94%E6%A1%88%E6%A0%BC%E5%BC%8F
+		//http://www.blueshop.com.tw/board/FUM20141202112221MW3/BRD20141200000001686.html
+		//http://stackoverflow.com/questions/35673800/how-to-determine-encoding-of-image-using-header-bytes
 		//利用表頭資訊的2-5的位元組，查出該檔案大小
 		//以這個case來說,76->118,91->145,1->1,0->0;TODO 該怎算?
 		File file = new File("PG30009.bmp");
@@ -42,7 +44,7 @@ public class BmpFile {
 			low = title[5] % 16;
 			high = (title[5]-low) / 16;
 			value4 = high*16*16*16*16*16*16 + low*16*16*16*16*16; 
-			
+			System.out.print(fileSize);
 			fileSize = value1+value2+value3+value4;
 			fs.close();
 			System.out.println("該檔案大小為:"+fileSize);
