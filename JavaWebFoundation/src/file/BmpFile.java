@@ -8,6 +8,8 @@ import java.io.IOException;
 public class BmpFile {
 
 	public static void main(String[] args) {
+		//http://crazycat1130.pixnet.net/blog/post/1345538-%E9%BB%9E%E9%99%A3%E5%9C%96%EF%BC%88bitmap%EF%BC%89%E6%AA%94%E6%A1%88%E6%A0%BC%E5%BC%8F
+		//利用表頭資訊的2-5的位元組，查出該檔案大小
 		File file = new File("PG30009.bmp");
 		byte data[] = new byte[54];
 		int fileSize,value1,value2,value3,value4,low,high,num;
