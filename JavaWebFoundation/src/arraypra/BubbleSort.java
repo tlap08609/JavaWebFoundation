@@ -1,7 +1,8 @@
 package arraypra;
 
 public class BubbleSort {
-
+	//Algorithm
+	//http://www.csie.ntnu.edu.tw/~u91029/Algorithm.html
 	public static void main(String[] args) {
 		int tt[] = { 25, 13, 39, 19, 9, 47, 10, 57, 58, 283, 43, 349 };
 		//int temp;
