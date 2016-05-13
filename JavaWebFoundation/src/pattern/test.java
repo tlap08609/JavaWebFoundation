@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class test {
 
 	public static void main(String[] args) {
-		// http://blog.xuite.net/chuyichung/twblog/157410856-%E8%BA%AB%E5%88%86%E8%AD%89%E5%AD%97%E8%99%9F%E5%88%B0%E5%BA%95%E6%9C%83%E4%B8%8D%E6%9C%83%E9%87%8D%E8%A4%87%E9%98%BF%3F
+		// 
 		// TODO ID CARD
 		// "(?i)^[_A-Z\\d-\\+]+(\\.[_A-Z\\d-]+)*@[A-Z\\d-]+(\\.[A-Z\\d-]+)*(\\.[A-Z]{2,})$"
 		// ^(?i)[_a-z\\d-\\+]+(\\.[_a-z\\d-]+)*@[a-z\\d-]+(\\.[a-z\\d-]+)*(\\.[a-z]{2,})$
@@ -19,16 +19,6 @@ public class test {
 		// System.out.println(ss);
 		// }
 		// }
-//		String mustSplitString = "A,;B, C, D, E";
-//		String[] AfterSplit = mustSplitString.split("[,;\\s]+");
-//		for (int i = 0; i < AfterSplit.length; i++)
-//		System.out.println(AfterSplit[i]);
-//		
-//		String nn = "A, B,,,E,F";
-//		String nnArray[] = nn.split("[,\\s]+");
-//		for (String na : nnArray) {
-//			System.out.print(na+" ");
-//		}
 //		System.out.println();
 //		String nn1 = "A1aaaa1B2,,,222222E3333,,,,333F";
 //		String nnArray1[] = nn1.split("[^A-Z]+");
@@ -63,8 +53,7 @@ public class test {
 //		if (m.matches()) {
 //	      System.out.println(m.group(0));
 		//nice
-		//String ans = "tims alices tree apple eva".replaceAll("(?!<\\w)s", "'s");
-		//System.out.print(ans);
+
 		
 		//Matcher cm = Pattern.compile("(?i)[A-Z]+").matcher("tlap0860");
 //		Matcher cm = Pattern.compile("[_A-Z\\d-\\+]+").matcher("!");
@@ -73,8 +62,23 @@ public class test {
 //		} else {
 //			System.out.print("false");
 //		}
+		//asii gg
+//		Matcher cm = Pattern.compile("[9-0]").matcher("1");
+//		if (cm.find()) {
+//			System.out.print("true") ;
+//		} else {
+//			System.out.print("false");
+//		}
 		
-				
+		Matcher cm = Pattern.compile("s\\b").matcher("tims alices tree Toms eva");
+		if (cm.find()) {
+			System.out.print("true") ;
+			System.out.print(cm.group(0)) ;
+		} else {
+			System.out.print("false");
+		}
+//		String ans = "           我".replaceAll("(?m)^\\s+", "");
+//		System.out.print(ans);		
 		
 
 	}

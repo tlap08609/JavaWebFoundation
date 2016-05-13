@@ -7,7 +7,8 @@ public class RegIdCard {
 	//https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%9C%8B%E6%B0%91%E8%BA%AB%E5%88%86%E8%AD%89
 	//getByte vs toCharArray:
 	//http://stackoverflow.com/questions/21254187/java-mutable-string-with-efficient-per-char-operations-tochararray-or-getby
-	
+	//repeat??
+	//http://blog.xuite.net/chuyichung/twblog/157410856-%E8%BA%AB%E5%88%86%E8%AD%89%E5%AD%97%E8%99%9F%E5%88%B0%E5%BA%95%E6%9C%83%E4%B8%8D%E6%9C%83%E9%87%8D%E8%A4%87%E9%98%BF%3F
 	public static void main(String[] args) {
 		boolean check = false;
 		Scanner ss = new Scanner(System.in);

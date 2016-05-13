@@ -3,8 +3,6 @@ package pattern;
 import java.util.regex.Pattern;
 
 public class Validator {
-	//postive or negative lookahead lookbehind web
-	//http://fanli7.net/a/bianchengyuyan/regular_expression/2014/0727/523173.html
 	public static final boolean email(CharSequence s) {
 		return Pattern.matches("(?i)^[_A-Z\\d-\\+\\.\\=]+@[A-Z\\d-]+(\\.[A-Z\\d-]+)*(\\.[A-Z]{2,})$",s);
 	}
